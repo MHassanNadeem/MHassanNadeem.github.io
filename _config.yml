@@ -1,0 +1,76 @@
+# Dependencies
+markdown: kramdown
+kramdown: 
+  input: GFM
+  syntax_highlighter: rouge
+  
+highlighter: rouge
+
+rouge: 
+  wrap: true
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title/
+
+# Paginte Configurations
+paginate: 2 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+
+# Setup
+title:            'Hassan Nadeem'
+# tagline:          '' # Appears in the title of home page ONLY
+description:      "Software Engineer, Electrical Engineer, Maker, Consultant"
+url:              'http://HassanNadeem.com'
+baseurl:          ''
+
+sass:
+    style: compressed
+
+# Sidebar Navigation
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/
+- text: Archive
+  url : /blog/archive/
+- text: Tags
+  url : /blog/tags/
+
+
+#Social Media links
+# Icons taken from www.iconfinder.com
+dribbble:
+email:          'me@HassanNadeem.com'
+facebook:       'https://www.facebook.com/The.Hassan.Nadeem'
+gplus:          'https://plus.google.com/+HassanNadeem/'
+twitter:        'https://twitter.com/MHassanNadeem'
+github:         'https://github.com/MHassanNadeem'
+linkedin:       'https://linkedin.com/in/MHassanNadeem'
+flickr:
+instagram:      'https://www.instagram.com/MHassanNadeem'
+pinterest:
+rss:
+stackoverflow:  'http://stackoverflow.com/users/1767423/hassan-nadeem'
+
+# Author Details for Metatags and jekyll-feed
+author:
+  name:           'Hassan Nadeem'
+  uri:            'http://HassanNadeem.com'
+  email:          'me@HassanNadeem.com'
+
+# Google Analytics
+gahandler: 'UA-71772128-2'
+
+# Disqus
+disqushandler: 'hassannadeem'
+
+
+# Enabled jekyll plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - rouge

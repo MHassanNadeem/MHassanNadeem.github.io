@@ -1,0 +1,8 @@
+<div style="display:inline">
+{% if site.email %}<a rel="me" href="mailto:{{site.email}}" title="{{site.author.name}}'s Email">{% include svg-icons/email.html %}</a>{% endif %}
+{% if site.facebook %}<a rel="me" target="_blank" href="{{site.facebook}}" title="{{site.author.name}}'s Facebook">{% include svg-icons/facebook.html %}</a>{% endif %}
+{% if site.gplus %}<a rel="me" target="_blank" href="{{site.gplus}}" title="{{site.author.name}}'s Google+">{% include svg-icons/google.html %}</a>{% endif %}
+{% if site.twitter %}<a rel="me" target="_blank" href="{{site.twitter}}" title="{{site.author.name}}'s Twitter">{% include svg-icons/twitter.html %}</a>{% endif %}
+{% if site.github %}<a rel="me" target="_blank" href="{{site.github}}" title="{{site.author.name}}'s Github">{% include svg-icons/github.html %}</a>{% endif %}
+{% if site.linkedin %}<a rel="me" target="_blank" href="{{site.linkedin}}" title="{{site.author.name}}'s Linkedin">{% include svg-icons/linkedin.html %}</a>{% endif %}
+</div>

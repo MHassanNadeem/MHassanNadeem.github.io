@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://hassannadeem.com/sitemap.xml
+Disallow: /nocrawl/

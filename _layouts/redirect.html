@@ -1,0 +1,17 @@
+---
+---
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1;url={{ page.link }}">
+        <script type="text/javascript">
+            window.location.href = "{{ page.link }}"
+        </script>
+        <title>{{ page.title }} Redirection</title>
+    </head>
+    <body>
+    	{% include analytics.html %}
+        If you are not redirected automatically, follow the <a href='{{ page.link }}'>link to: {{ page.title }}</a>
+    </body>
+</html>
