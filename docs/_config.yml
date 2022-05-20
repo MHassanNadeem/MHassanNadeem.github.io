@@ -77,7 +77,7 @@ content:
           Worked in a team as a full stack engineer to support Bloomberg Enterprise Access Point, eap.bloomberg.com. Serves >2M API requests/day.
         description: | # this will include new lines to allow paragraphs
             - Built multiple backend <mark>RestAPI</mark> micro-services using <mark>Python</mark>, <mark>Flask</mark>, <mark>FastApi</mark>, <mark>Gunicorn</mark>, <mark>Apache Solr</mark> and <mark>Apache Kafka</mark>.
-            - Created UI components using <mark>node</mark>, <mark>Express</mark>, <mark>TypeScript<mark> and <mark>React</mark>.
+            - Created UI components using <mark>node</mark>, <mark>Express</mark>, <mark>TypeScript</mark> and <mark>React</mark>.
             - Spearheaded the delivery of various features from technical design, development, deployment to maintenance.
 
   - title: Education # Title for the section
@@ -88,7 +88,7 @@ content:
         caption: August 2017 - May 2019
         sub_title: M.S. Computer Science
         quote: >
-          Got degree in Computer Science but did my thesis with Computer Engineering Department. I was also employed part-time as a research assistant.
+          Got degree in Computer Science but did my thesis with the Computer Engineering Department. I was also employed part-time as a research assistant.
         description: | # this will include new lines to allow paragraphs
           GPA: 3.78. Courses: Linux Kernel Programming, Computer Architecture, Multiprocessor Programming, Systems Security, Data Analytics, Info Visualization, Urban Computing
       - layout: left
@@ -96,21 +96,21 @@ content:
         caption: August 2011 - May 2015
         sub_title: B.S. Electrical Engineering
         quote: >
-          I was also employed part-time as a teaching assistant.
+          In my senior year I was also employed part-time as a teaching assistant. I also assumed various positions as an unpaid research assistant.
         description: | # this will include new lines to allow paragraphs
           GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in software engineering and product development some of my other interests and hobbies are:
+      - Watching Movies
+      - Cricket
+      - Blogging
+      - I am also getting into podcasts
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      # Look at this cool image  
+      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
