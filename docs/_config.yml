@@ -84,15 +84,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Virginia Tech
+        caption: August 2017 - May 2019
+        sub_title: M.S. Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Got degree in Computer Science but did my thesis with Computer Engineering Department. I was also employed part-time as a research assistant.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          GPA: 3.78. Courses: Linux Kernel Programming, Computer Architecture, Multiprocessor Programming, Systems Security, Data Analytics, Info Visualization, Urban Computing
+      - layout: left
+        title: LUMS
+        caption: August 2011 - May 2015
+        sub_title: B.S. Electrical Engineering
+        quote: >
+          I was also employed part-time as a teaching assistant.
+        description: | # this will include new lines to allow paragraphs
+          GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
 
   - title: A Little More About Me
     layout: text
