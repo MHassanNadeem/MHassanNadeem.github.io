@@ -69,8 +69,7 @@ content:
     content:
       - layout: left
         title: Bloomberg L.P.
-        link: bloomberg.com
-        # link_text: boringcompany.com
+        link: https://bloomberg.com
         sub_title: Software Engineer
         caption: July 2019 - Present
         quote: >
@@ -79,6 +78,31 @@ content:
             - Built multiple backend <mark>RestAPI</mark> micro-services using <mark>Python</mark>, <mark>Flask</mark>, <mark>FastApi</mark>, <mark>Gunicorn</mark>, <mark>Apache Solr</mark> and <mark>Apache Kafka</mark>.
             - Created UI components using <mark>node</mark>, <mark>Express</mark>, <mark>TypeScript</mark> and <mark>React</mark>.
             - Spearheaded the delivery of various features from technical design, development, deployment to maintenance.
+# -------------------------------
+      - layout: left
+        title: Research Assistant - Systems Software Research Group (SSRG)
+        link: https://www.ssrg.ece.vt.edu/
+        sub_title: Research Assistant - Systems Software Research Group (SSRG)
+        caption: August 2017 - May 2019
+        quote: >
+          Worked under the supervision of a Research Assistant Professor, this work resulted in a publication in <mark>ASPLOS 2022</mark>.
+        description: | # this will include new lines to allow paragraphs
+          - Improved <mark>OS</mark> security by implementing <mark>Linux Kernel Module</mark> continuous address space re-randomization to defend against Just-In-Time ROP attacks.
+          - Added support to compile and load <mark>Linux Drivers</mark> as position independent code, extending KASLR to 64 bits.
+          - Implemented lockfree, high performance algorithm for stack and code re-randomizaton.
+          - Experiments with ethernet driver re-randomized at 1ms period resulted in negligible  impact on CPU utilization and network throughput.
+# -------------------------------
+      - layout: left
+        title: Software Engineer
+        link: https://viaesys.com/
+        sub_title: Viaesys
+        caption: May 2015 - July 2016
+        quote: >
+          Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for US/Canada for the municipal industry. These devices are operational on the field today.
+        description: | # this will include new lines to allow paragraphs
+          - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling featuring support for file system and over the air updates. Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
+          - Developed <mark>Python</mark> based framework to build, package and deliver over the air updates via TFTP.
+# --------------------------------------------------------------------------------------------
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -91,26 +115,25 @@ content:
           Got degree in Computer Science but did my thesis with the Computer Engineering Department. I was also employed part-time as a research assistant.
         description: | # this will include new lines to allow paragraphs
           GPA: 3.78. Courses: Linux Kernel Programming, Computer Architecture, Multiprocessor Programming, Systems Security, Data Analytics, Info Visualization, Urban Computing
+# -------------------------------
       - layout: left
         title: LUMS
         caption: August 2011 - May 2015
         sub_title: B.S. Electrical Engineering
         quote: >
-          In my senior year I was also employed part-time as a teaching assistant. I also assumed various positions as an unpaid research assistant.
+          In my senior year I was employed part-time as a teaching assistant. I also assumed various positions as an unpaid research assistant.
         description: | # this will include new lines to allow paragraphs
           GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
+# --------------------------------------------------------------------------------------------
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in software engineering and product development some of my other interests and hobbies are:
       - Watching Movies
-      - Cricket
+      - Table Tennis and Cricket
       - Blogging
-      - I am also getting into podcasts
-
-      # Look at this cool image  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - I am also getting into hosting my own podcast
 
 # Footer
 footer_show_references: true
