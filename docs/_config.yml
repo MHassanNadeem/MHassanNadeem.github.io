@@ -148,7 +148,9 @@ content:
         sub_title: 27th edition of the ASPLOS
         caption: 2nd Author
         description: | # this will include new lines to allow paragraphs
-          Adelie, our linux kernel defense mechanism, overcomes KASLR limitations, increases KASLR entropy, and makes successful ROP attacks on the Linux kernel much harder to achieve.
+          While address space layout randomization (ASLR) has been extensively studied for user-space programs, the corresponding OS kernel's KASLR support remains very limited, making the kernel vulnerable to just-in-time (JIT) return-oriented programming (ROP) attacks. Furthermore, commodity OSs such as Linux restrict their KASLR range to 32 bits due to architectural constraints (e.g., x86-64 only supports 32-bit immediate operands for most instructions), which makes them vulnerable to even unsophisticated brute-force ROP attacks due to low entropy. Most in-kernel pointers remain static, exacerbating the problem when pointers are leaked.
+
+          Adelie, our kernel defense mechanism, overcomes KASLR limitations, increases KASLR entropy, and makes successful ROP attacks on the Linux kernel much harder to achieve. First, Adelie enables the position-independent code (PIC) model so that the kernel and its modules can be placed anywhere in the 64-bit virtual address space, at any distance apart from each other. Second, Adelie implements stack re-randomization and address encryption on modules. Finally, Adelie enables efficient continuous KASLR for modules by using the PIC model to make it (almost) impossible to inject ROP gadgets through these modules regardless of gadget's origin.
       - layout: left
         title: "Linux Kernel Module Continuous Address Space Re-Randomization"
         link: https://vtechworks.lib.vt.edu/handle/10919/104685
