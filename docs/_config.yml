@@ -40,7 +40,7 @@ youtube_username: hassannadeem
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Hassan and I'm a software and hardware engineer. I have designed various products all the way from pcb layouts to writing code. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Hassan and I'm a software and hardware engineer. I have designed various products from ground up - all the way from pcb layouts to writing code. I have worked at a number of companies gaining teamwork and leadership skills.
 
   I am most skilled in: <mark>Python</mark> and <mark>C</mark>
 
@@ -144,6 +144,7 @@ content:
       - layout: left
         title: "Adelie: Continuous Address Space Layout Re-randomization for Linux Drivers"
         link: https://dl.acm.org/doi/10.1145/3503222.3507779
+        link_text: dl.acm.org
         sub_title: 27th edition of the ASPLOS
         caption: 2nd Author
         description: | # this will include new lines to allow paragraphs
@@ -151,6 +152,7 @@ content:
       - layout: left
         title: "Linux Kernel Module Continuous Address Space Re-Randomization"
         link: https://vtechworks.lib.vt.edu/handle/10919/104685
+        link_text: vt.edu
         sub_title: Virginia Tech Electronic Theses and Dissertations
         caption: Masters Thesis
         description: | # this will include new lines to allow paragraphs
