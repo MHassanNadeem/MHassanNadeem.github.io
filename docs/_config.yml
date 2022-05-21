@@ -80,8 +80,8 @@ content:
             - Spearheaded the delivery of various features from technical design, development, deployment to maintenance.
 # -------------------------------
       - layout: left
-        title: Research Assistant - Systems Software Research Group (SSRG)
-        link: https://www.ssrg.ece.vt.edu/
+        title: Virginia Tech
+        link: https://ssrg.ece.vt.edu/
         sub_title: Research Assistant - Systems Software Research Group (SSRG)
         caption: August 2017 - May 2019
         quote: >
@@ -93,15 +93,27 @@ content:
           - Experiments with ethernet driver re-randomized at 1ms period resulted in negligible  impact on CPU utilization and network throughput.
 # -------------------------------
       - layout: left
-        title: Software Engineer
+        title: Viaesys
         link: https://viaesys.com/
-        sub_title: Viaesys
+        sub_title: Software Engineer
         caption: May 2015 - July 2016
         quote: >
           Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for US/Canada for the municipal industry. These devices are operational on the field today.
         description: | # this will include new lines to allow paragraphs
           - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling featuring support for file system and over the air updates. Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
           - Developed <mark>Python</mark> based framework to build, package and deliver over the air updates via TFTP.
+
+# -------------------------------
+      - layout: left
+        title: LUMS
+        link: https://lums.edu.pk/
+        sub_title: Teaching Assistant
+        caption: Fall, Spring 2014-2015
+        quote: >
+          Introduction to programming in C++, Microcontrollers and Interfacing
+        description: | # this will include new lines to allow paragraphs
+          - Worked under the supervision of a Professor to design development boards that were used in lab exercises and course projects (~150 pupils).
+          - Updated Lab Manuals, delivered lab <mark>lectures</mark>, evaluated students' lab performance and supervised their course projects.
 # --------------------------------------------------------------------------------------------
 
   - title: Education # Title for the section
@@ -124,6 +136,30 @@ content:
           In my senior year I was employed part-time as a teaching assistant. I also assumed various positions as an unpaid research assistant.
         description: | # this will include new lines to allow paragraphs
           GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
+
+# --------------------------------------------------------------------------------------------
+  - title: Publications
+    layout: list
+    content:
+      - layout: left
+        title: "Adelie: Continuous Address Space Layout Re-randomization for Linux Drivers"
+        link: https://dl.acm.org/doi/10.1145/3503222.3507779
+        sub_title: 27th edition of the ASPLOS
+        caption: 2nd Author
+        description: | # this will include new lines to allow paragraphs
+          Adelie, our linux kernel defense mechanism, overcomes KASLR limitations, increases KASLR entropy, and makes successful ROP attacks on the Linux kernel much harder to achieve.
+      - layout: left
+        title: "Linux Kernel Module Continuous Address Space Re-Randomization"
+        link: https://vtechworks.lib.vt.edu/handle/10919/104685
+        sub_title: Virginia Tech Electronic Theses and Dissertations
+        caption: Masters Thesis
+        description: | # this will include new lines to allow paragraphs
+          Address space layout randomization (ASLR) is a technique employed to prevent exploitation of memory corruption vulnerabilities in user-space programs. While this technique is widely studied, its kernel space counterpart known as kernel address space layout randomization (KASLR) has received less attention in the research community. KASLR, as it is implemented today is limited in entropy of randomization. Specifically, the kernel image and its modules can only be randomized within a narrow 1GB range. Moreover, KASLR does not protect against memory disclosure vulnerabilities, the presence of which reduces or completely eliminates the benefits of KASLR.
+
+          In this thesis, we make two major contributions. First, we add support for position-independent kernel modules to Linux so that the modules can be placed anywhere in the 64-bit virtual address space and at any distance apart from each other. Second, we enable continuous KASLR re-randomization for Linux kernel modules by leveraging the position-independent model. Both contributions increase the entropy and reduce the chance of successful ROP attacks. Since prior art tackles only user-space programs, we also solve a number of challenges unique to the kernel code.
+
+          Our experimental evaluation shows that the overhead of position-independent code is very low. Likewise, the cost of re-randomization is also small even at very high re-randomization frequencies.
+
 # --------------------------------------------------------------------------------------------
 
   - title: A Little More About Me
