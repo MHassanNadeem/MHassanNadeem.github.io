@@ -58,7 +58,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Built multiple backend <mark>RestAPI</mark> micro-services using <mark>Python</mark>, <mark>Flask</mark>, <mark>FastApi</mark>, <mark>Gunicorn</mark>, <mark>Apache Solr</mark> and <mark>Apache Kafka</mark>.
             - Created UI components using <mark>node</mark>, <mark>Express</mark>, <mark>TypeScript</mark> and <mark>React</mark>.
-            - Designed <mark>RestAPIs</mark> using <mark>OpenAPI</mark> specification.
+            - Designed <mark>REST</mark> <mark>APIs</mark> following <mark>OpenAPI</mark> specification.
+            - Containerized various repositories using <mark>Docker</mark>.
+            - Implemented <mark>CI/CD</mark> workflows on <mark>Jenkins</mark> for testing, packaging and deployment of various packages.
             - Spearheaded the delivery of various features from technical design, development, deployment to maintenance.
 # -------------------------------
       - layout: left
@@ -125,6 +127,23 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Parrot AR Tracking Drone
+        link: https://github.com/MHassanNadeem/Parrot-AR-Drone-Tracking
+        link_text: github::MHassanNadeem::Parrot-AR-Drone-Tracking
+        additional_links:
+          - title:  Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=JPkZdP4H1DE
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/Parrot-AR-Drone-Tracking
+        quote: >
+          Parrot AR Drone was programmed to follow a marker using computer vision.
+        description: | # this will include new lines to allow paragraphs
+          - Cross-compiled <mark>OpenCV</mark> for drone's <mark>ARM</mark> processor.
+          - Drone's video feed was captured from <mark>TCP</mark> port and decoded using <mark>FFMPEG</mark> libraries for OpenCV.
+          - Multithreaded application was written to process the video feed and control the drone using <mark>PID</mark> loops.
       - layout: top-middle
         title: Digital Logic Circuit Simulator
         link: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
