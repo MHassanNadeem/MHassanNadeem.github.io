@@ -126,36 +126,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Bomberman Game
-        link: https://github.com/MHassanNadeem/Bomberman_Java
-        link_text: github::MHassanNadeem::Bomberman_Java
-        additional_links:
-          - title:  Demo
-            icon: fab fa-youtube
-            url: https://www.youtube.com/shorts/BvzmhVA0msA
-          - title:  Source Code
-            icon: fab fa-github
-            url: https://github.com/MHassanNadeem/Bomberman_Java
-        quote: >
-          Recreated one of my favourite childhood game in Java, for an assignment for Advanced Programming CS:300 Spring 2012-13, a course I look in my 2nd year of B.S. at LUMS.
-        description: | # this will include new lines to allow paragraphs
-          - Used <mark>Swing</mark> toolkit to design and code bomberman game in <mark>Java</mark>.
-      - layout: top-middle
-        title: Digital Logic Circuit Simulator
-        link: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
-        link_text: github::MHassanNadeem::Digital-Logic-Circuit-Simulator
-        additional_links:
-          - title:  Demo
-            icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=SiQKKMb5u9s
-          - title:  Source Code
-            icon: fab fa-github
-            url: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
-        quote: >
-          Digital Logic Circuit Simulator written in Java using swing toolkit, as a course project for Advanced Programming CS:300 Spring 2012-13, a course I look in my 2nd year of B.S. at LUMS.
-        description: | # this will include new lines to allow paragraphs
-          - Used <mark>Swing</mark> toolkit to design and code Digital Logic Circuit Simulator in <mark>Java</mark>.
-      - layout: top-middle
         title: Digital Logic Circuit Simulator
         link: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
         link_text: github::MHassanNadeem::Digital-Logic-Circuit-Simulator
@@ -174,6 +144,38 @@ content:
           - Implemented debugging tools such as <mark>Logic Stage</mark> and <mark>Logic Probe</mark>.
           - Implemented Digital ICs such as <mark>Counter</mark> and <mark>7 segment Display Unit</mark>.
           - Implemented ability to save and load designs to file system.
+      - layout: top-middle
+        title: Line Follower Robot
+        link: https://github.com/MHassanNadeem/line-follower-robot
+        link_text: github::MHassanNadeem::line-follower-robot
+        additional_links:
+          - title:  Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/shorts/9xUAluQRRqk
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/line-follower-robot
+        quote: >
+          Handcarfted a line follower robot as a course project for Digital Circuit Design, a course I look in my 2nd year of B.S. at LUMS.
+        description: | # this will include new lines to allow paragraphs
+          - Recycled an old ice-cream box into a line following robot.
+          - Machined components to connect motors with toy wheels.
+          - Used basic hardware logic gates and photodiodes to program the robot to follow a black line.
+      - layout: top-middle
+        title: Bomberman Game
+        link: https://github.com/MHassanNadeem/Bomberman_Java
+        link_text: github::MHassanNadeem::Bomberman_Java
+        additional_links:
+          - title:  Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/shorts/BvzmhVA0msA
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/Bomberman_Java
+        quote: >
+          Recreated one of my favourite childhood game in Java, for an assignment for Advanced Programming CS:300 Spring 2012-13, a course I look in my 2nd year of B.S. at LUMS.
+        description: | # this will include new lines to allow paragraphs
+          - Used <mark>Swing</mark> toolkit to design and code bomberman game in <mark>Java</mark>.
 
 
 # --------------------------------------------------------------------------------------------
