@@ -45,25 +45,6 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Python</mark> and <mark>C</mark>
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -140,6 +121,25 @@ content:
           In my senior year I was employed part-time as a <mark>teaching assistant</mark>. I also assumed various positions as an unpaid <mark>research assistant</mark>.
         description: | # this will include new lines to allow paragraphs
           GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Bomberman Game
+        link: https://github.com/MHassanNadeem/Bomberman_Java
+        link_text: github::MHassanNadeem::Bomberman_Java
+        additional_links:
+          - title:  Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/shorts/BvzmhVA0msA
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/Bomberman_Java
+        quote: >
+          Recreated one of my favourite childhood game in Java, as part of my undergrad project.
+        description: | # this will include new lines to allow paragraphs
+          - Used <mark>Swing</mark> toolkit to design and code bomberman game in <mark>Java</mark>.
 
 # --------------------------------------------------------------------------------------------
   - title: Publications
