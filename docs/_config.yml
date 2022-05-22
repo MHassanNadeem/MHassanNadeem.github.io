@@ -137,9 +137,44 @@ content:
             icon: fab fa-github
             url: https://github.com/MHassanNadeem/Bomberman_Java
         quote: >
-          Recreated one of my favourite childhood game in Java, as part of my undergrad project.
+          Recreated one of my favourite childhood game in Java, for an assignment for Advanced Programming CS:300 Spring 2012-13, a course I look in my 2nd year of B.S. at LUMS.
         description: | # this will include new lines to allow paragraphs
           - Used <mark>Swing</mark> toolkit to design and code bomberman game in <mark>Java</mark>.
+      - layout: top-middle
+        title: Digital Logic Circuit Simulator
+        link: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
+        link_text: github::MHassanNadeem::Digital-Logic-Circuit-Simulator
+        additional_links:
+          - title:  Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=SiQKKMb5u9s
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
+        quote: >
+          Digital Logic Circuit Simulator written in Java using swing toolkit, as a course project for Advanced Programming CS:300 Spring 2012-13, a course I look in my 2nd year of B.S. at LUMS.
+        description: | # this will include new lines to allow paragraphs
+          - Used <mark>Swing</mark> toolkit to design and code Digital Logic Circuit Simulator in <mark>Java</mark>.
+      - layout: top-middle
+        title: Digital Logic Circuit Simulator
+        link: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
+        link_text: github::MHassanNadeem::Digital-Logic-Circuit-Simulator
+        additional_links:
+          - title:  Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=SiQKKMb5u9s
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/Digital-Logic-Circuit-Simulator
+        quote: >
+          Digital Logic Circuit Simulator written in Java using swing toolkit, as a course project for Advanced Programming CS:300 Spring 2012-13, a course I look in my 2nd year of B.S. at LUMS.
+        description: | # this will include new lines to allow paragraphs
+          - Used <mark>Swing</mark> toolkit to design and code Digital Logic Circuit Simulator in <mark>Java</mark>.
+          - Implemented Logic Gates such as <mark>AND</mark>, <mark>OR</mark>, <mark>XOR</mark> and <mark>NOR</mark>.
+          - Implemented debugging tools such as <mark>Logic Stage</mark> and <mark>Logic Probe</mark>.
+          - Implemented Digital ICs such as <mark>Counter</mark> and <mark>7 segment Display Unit</mark>.
+          - Implemented ability to save and load designs to file system.
+
 
 # --------------------------------------------------------------------------------------------
   - title: Publications
