@@ -73,10 +73,11 @@ content:
         sub_title: Software Engineer
         caption: July 2019 - Present
         quote: >
-          Worked in a team as a full stack engineer to support Bloomberg Enterprise Access Point, eap.bloomberg.com. Serves >2M API requests/day.
+          Worked in a team as a full stack engineer to support Bloomberg Enterprise Access Point, data.bloomberg.com. Serves >2M API requests/day.
         description: | # this will include new lines to allow paragraphs
             - Built multiple backend <mark>RestAPI</mark> micro-services using <mark>Python</mark>, <mark>Flask</mark>, <mark>FastApi</mark>, <mark>Gunicorn</mark>, <mark>Apache Solr</mark> and <mark>Apache Kafka</mark>.
             - Created UI components using <mark>node</mark>, <mark>Express</mark>, <mark>TypeScript</mark> and <mark>React</mark>.
+            - Designed <mark>RestAPIs</mark> using <mark>OpenAPI</mark> specification.
             - Spearheaded the delivery of various features from technical design, development, deployment to maintenance.
 # -------------------------------
       - layout: left
@@ -98,10 +99,12 @@ content:
         sub_title: Software Engineer
         caption: May 2015 - July 2016
         quote: >
-          Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for US/Canada for the municipal industry. These devices are operational on the field today.
+          Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for North American municipal industry. These devices are operational on the field today.
         description: | # this will include new lines to allow paragraphs
-          - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling featuring support for file system and over the air updates. Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
-          - Developed <mark>Python</mark> based framework to build, package and deliver over the air updates via TFTP.
+          - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling featuring support for file system and over the air updates
+          - Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
+          - Developed <mark>Python</mark> based framework to build, package and deliver <mark>over the air updates</mark> via TFTP.
+          - Designed multi-layered <mark>PCBs</mark>. Including circuit design, component selection, schematic design and PCB layout.
 
 # -------------------------------
       - layout: left
@@ -110,10 +113,11 @@ content:
         sub_title: Teaching Assistant
         caption: Fall, Spring 2014-2015
         quote: >
-          Introduction to programming in C++, Microcontrollers and Interfacing
+          <mark>Introduction to programming in C++</mark>, <mark>Microcontrollers and Interfacing</mark>
         description: | # this will include new lines to allow paragraphs
           - Worked under the supervision of a Professor to design development boards that were used in lab exercises and course projects (~150 pupils).
           - Updated Lab Manuals, delivered lab <mark>lectures</mark>, evaluated students' lab performance and supervised their course projects.
+          - Designed and graded assignments and quizzes.
 # --------------------------------------------------------------------------------------------
 
   - title: Education # Title for the section
@@ -133,7 +137,7 @@ content:
         caption: August 2011 - May 2015
         sub_title: B.S. Electrical Engineering
         quote: >
-          In my senior year I was employed part-time as a teaching assistant. I also assumed various positions as an unpaid research assistant.
+          In my senior year I was employed part-time as a <mark>teaching assistant</mark>. I also assumed various positions as an unpaid <mark>research assistant</mark>.
         description: | # this will include new lines to allow paragraphs
           GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
 
