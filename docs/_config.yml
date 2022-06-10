@@ -76,8 +76,6 @@ content:
           - Implemented lockfree, high performance algorithm for stack and code re-randomizaton.
           - Experiments with ethernet driver re-randomized at 1ms period resulted in negligible  impact on CPU utilization and network throughput.
 # -------------------------------
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: Siemens (Mentor Graphics)
         link: https://siemens.com
