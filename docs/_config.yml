@@ -40,7 +40,7 @@ google_analytics: "UA-71772128-2"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Hassan and I'm a software and hardware engineer. I have designed various products from ground up - all the way from pcb layouts to writing code. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Muhammad Hassan Nadeem. I prefer to go by Hassan. I'm a software and hardware engineer. I have designed various products from ground up - all the way from pcb layouts to writing code. I have worked at a number of companies gaining teamwork and leadership skills.
 
   I am most skilled in: <mark>Python</mark> and <mark>C</mark>
 
@@ -75,6 +75,17 @@ content:
           - Added support to compile and load <mark>Linux Drivers</mark> as position independent code, extending KASLR to 64 bits.
           - Implemented lockfree, high performance algorithm for stack and code re-randomizaton.
           - Experiments with ethernet driver re-randomized at 1ms period resulted in negligible  impact on CPU utilization and network throughput.
+# -------------------------------
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Siemens (Mentor Graphics)
+        link: https://siemens.com
+        sub_title: Software Engineer
+        caption: August 2016 - June 2017
+        description: | # this will include new lines to allow paragraphs
+            - Worked in a team to implement features and maintain AUTOSAR OS for automotive ECUs.
+            - Responsible for maintaining AUTOSAR OS port on ARM Cortex processors.
 # -------------------------------
       - layout: left
         title: Viaesys
@@ -175,9 +186,9 @@ content:
             icon: fab fa-github
             url: https://github.com/MHassanNadeem/line-follower-robot
         quote: >
-          Handcarfted a line follower robot as a course project for Digital Circuit Design, a course I look in my 2nd year of B.S. at LUMS.
+          <mark>Handcarfted</mark> a line follower robot as a course project for Digital Circuit Design, a course I look in my 2nd year of B.S. at LUMS.
         description: | # this will include new lines to allow paragraphs
-          - Recycled an old ice-cream box into a line following robot.
+          - <mark>Recycled</mark> an old ice-cream box into a line following robot.
           - Machined components to connect motors with toy wheels.
           - Used basic hardware logic gates and photodiodes to program the robot to follow a black line.
       - layout: top-middle
