@@ -235,6 +235,14 @@ content:
 
 # --------------------------------------------------------------------------------------------
 
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Proficient in <mark>Python</mark> and <mark>C</mark>.
+      - Experience in <mark>Javascript</mark>, <mark>Typescript</mark>, <mark>Java</mark>, <mark>Nginx</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Assembly Language</mark>, <mark>Linker Scripts</mark>, <mark>Makefile</mark>, <mark>Apache Solr</mark>, <mark>Apache Kafka</mark>, <mark>React</mark>, <mark>Docker</mark>, <mark>Jenkins</mark>, <mark>OpenAPI</mark>, <mark>Rest</mark>, <mark>Linux Kernel</mark>, <mark>Git</mark>, <mark>Hardware Communication Protocols</mark>, <mark>Debugging</mark>
+
+# --------------------------------------------------------------------------------------------
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
