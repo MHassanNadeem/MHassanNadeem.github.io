@@ -94,7 +94,7 @@ content:
         quote: >
           Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for North American municipal industry. These devices are operational on the field today.
         description: | # this will include new lines to allow paragraphs
-          - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling featuring support for file system and over the air updates
+          - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling (pre-prod) featuring support for file system and over the air updates.
           - Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
           - Developed <mark>Python</mark> based framework to build, package and deliver <mark>over the air updates</mark> via TFTP.
           - Designed multi-layered <mark>PCBs</mark>. Including circuit design, component selection, schematic design and PCB layout.
