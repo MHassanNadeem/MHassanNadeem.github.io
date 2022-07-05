@@ -70,7 +70,14 @@ content:
         sub_title: Research Assistant - Systems Software Research Group (SSRG)
         caption: August 2017 - May 2019
         quote: >
-          Worked under the supervision of a now Assistant Professor [Ruslan Nikolaev](https://rusnikola.github.io/) in a group led Professor [Binoy Ravindran](https://ece.vt.edu/people/profile/ravindran.html), this work resulted in a publication in <mark>ASPLOS 2022</mark>.
+          Worked under the supervision of a now Assistant Professor Ruslan Nikolaev in a group led Professor Binoy Ravindran, this work resulted in a publication in <mark>ASPLOS 2022</mark>.
+        additional_links:
+          - title: Ruslan Nikolaev
+            icon: fas fa-globe
+            url: https://rusnikola.github.io/
+          - title: Binoy Ravindran
+            icon: fas fa-globe
+            url: https://ece.vt.edu/people/profile/ravindran.html
         description: | # this will include new lines to allow paragraphs
           - Improved <mark>OS</mark> security by implementing <mark>Linux Kernel Module</mark> continuous address space re-randomization to defend against Just-In-Time ROP attacks.
           - Added support to compile and load <mark>Linux Drivers</mark> as position independent code, extending KASLR to 64 bits.
@@ -83,7 +90,11 @@ content:
         sub_title: Software Engineer
         caption: August 2016 - June 2017
         quote: >
-          Worked in a team led by [Ahmed Majeed](https://www.linkedin.com/in/ahmedmajeed).
+          Worked in a team led by Ahmed Majeed.
+        additional_links:
+          - title: Ahmed Majeed
+            icon: fas fa-globe
+            url: https://www.linkedin.com/in/ahmedmajeed
         description: | # this will include new lines to allow paragraphs
             - Worked in a team to implement features and maintain AUTOSAR OS for automotive ECUs.
             - Responsible for maintaining AUTOSAR OS port on ARM Cortex processors.
@@ -95,6 +106,10 @@ content:
         caption: May 2015 - July 2016
         quote: >
           Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for North American municipal industry. These devices are operational on the field today.
+        additional_links:
+          - title: Raqib Omer
+            icon: fas fa-globe
+            url: https://www.linkedin.com/in/raqib-omer/
         description: | # this will include new lines to allow paragraphs
           - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling (pre-prod) featuring support for file system and over the air updates.
           - Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
