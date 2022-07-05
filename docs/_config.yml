@@ -70,7 +70,7 @@ content:
         sub_title: Research Assistant - Systems Software Research Group (SSRG)
         caption: August 2017 - May 2019
         quote: >
-          Worked under the supervision of a Research Assistant Professor, this work resulted in a publication in <mark>ASPLOS 2022</mark>.
+          Worked under the supervision of a now Assistant Professor [Ruslan Nikolaev](https://rusnikola.github.io/) in a group led Professor [Binoy Ravindran](https://ece.vt.edu/people/profile/ravindran.html), this work resulted in a publication in <mark>ASPLOS 2022</mark>.
         description: | # this will include new lines to allow paragraphs
           - Improved <mark>OS</mark> security by implementing <mark>Linux Kernel Module</mark> continuous address space re-randomization to defend against Just-In-Time ROP attacks.
           - Added support to compile and load <mark>Linux Drivers</mark> as position independent code, extending KASLR to 64 bits.
@@ -82,6 +82,8 @@ content:
         link: https://siemens.com
         sub_title: Software Engineer
         caption: August 2016 - June 2017
+        quote: >
+          Worked in a team led by [Ahmed Majeed](https://www.linkedin.com/in/ahmedmajeed).
         description: | # this will include new lines to allow paragraphs
             - Worked in a team to implement features and maintain AUTOSAR OS for automotive ECUs.
             - Responsible for maintaining AUTOSAR OS port on ARM Cortex processors.
@@ -188,8 +190,8 @@ content:
           <mark>Handcarfted</mark> a line follower robot as a course project for Digital Circuit Design, a course I look in my 2nd year of B.S. at LUMS.
         description: | # this will include new lines to allow paragraphs
           - <mark>Recycled</mark> an old ice-cream box into a line following robot.
-          - Machined components to connect motors with toy wheels.
-          - Used basic hardware logic gates and photodiodes to program the robot to follow a black line.
+          - <mark>Machined</mark> components to connect motors with toy wheels.
+          - Used basic hardware </mark>logic gates</mark> and photodiodes to program the robot to follow a black line.
       - layout: top-middle
         title: Bomberman Game
         link: https://github.com/MHassanNadeem/Bomberman_Java
