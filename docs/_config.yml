@@ -42,7 +42,10 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Muhammad Hassan Nadeem. I prefer to go by Hassan. I'm a software and hardware engineer. I have designed various products from ground up - all the way from pcb layouts to writing code. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>Python</mark> and <mark>C</mark>
+  I write <mark>clean</mark> and <mark>secure</mark> code.
+
+  I am most skilled in: <mark>Python</mark> and <mark>C</mark>.
+  At my current job, I deal with <mark>Python</mark>, <mark>Typescript</mark>, <mark>React</mark> and <mark>Deployment</mark>/<mark>Maintenance</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -70,7 +73,7 @@ content:
         sub_title: Research Assistant - Systems Software Research Group (SSRG)
         caption: August 2017 - May 2019
         quote: >
-          Worked under the supervision of a now Assistant Professor Ruslan Nikolaev in a group led Professor Binoy Ravindran, this work resulted in a publication in <mark>ASPLOS 2022</mark>.
+          Worked on <mark>computer security</mark> under the supervision of a now Assistant Professor Ruslan Nikolaev in a group led Professor Binoy Ravindran, this work resulted in a publication in <mark>ASPLOS 2022</mark>.
         additional_links:
           - title: Ruslan Nikolaev
             icon: fas fa-globe
@@ -105,7 +108,7 @@ content:
         sub_title: Software Engineer
         caption: May 2015 - July 2016
         quote: >
-          Worked independently to design and code a hardware gadget for GPS Tracking, Salt Tracking and Field Crew Management for North American municipal industry. These devices are operational on the field today.
+          Worked independently to design and code a hardware gadget for <mark>GPS Tracking</mark>, Salt Tracking and Field Crew Management for North American municipal industry. These devices are operational on the field today.
         additional_links:
           - title: Raqib Omer
             icon: fas fa-globe
@@ -113,6 +116,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Developed <mark>firmware</mark> for ARM® Cortex® M4 μProcessor with fixed-priority preemptive scheduling (pre-prod) featuring support for file system and over the air updates.
           - Wrote drivers to interface with various <mark>sensors</mark> over a variety of communication protocols.
+          - Wrote <mark>simulators</mark> to simulate various sensors and developed a <mark>hardware testing</mark> setup for <mark>quality assurance</mark> of our products.
           - Developed <mark>Python</mark> based framework to build, package and deliver <mark>over the air updates</mark> via TFTP.
           - Designed multi-layered <mark>PCBs</mark>. Including circuit design, component selection, schematic design and PCB layout.
 
@@ -125,7 +129,7 @@ content:
         quote: >
           <mark>Introduction to programming in C++</mark>, <mark>Microcontrollers and Interfacing</mark>
         description: | # this will include new lines to allow paragraphs
-          - Worked under the supervision of a Professor to design development boards that were used in lab exercises and course projects (~150 pupils).
+          - Worked under the supervision of Prof. Jahangir Ikram (Jikram) to design development boards that were used in lab exercises and course projects (~150 pupils).
           - Updated Lab Manuals, delivered lab <mark>lectures</mark>, evaluated students' lab performance and supervised their course projects.
           - Designed and graded assignments and quizzes.
 # --------------------------------------------------------------------------------------------
@@ -140,7 +144,7 @@ content:
         quote: >
           Got degree in Computer Science but did my thesis with the Computer Engineering Department. I was also employed part-time as a research assistant.
         description: | # this will include new lines to allow paragraphs
-          GPA: 3.78. Courses: Linux Kernel Programming, Computer Architecture, Multiprocessor Programming, Systems Security, Data Analytics, Info Visualization, Urban Computing
+          Courses: Linux Kernel Programming, Computer Architecture, Multiprocessor Programming, Systems Security, Data Analytics, Info Visualization, Urban Computing
 # -------------------------------
       - layout: left
         title: LUMS
@@ -149,7 +153,7 @@ content:
         quote: >
           In my senior year I was employed part-time as a <mark>teaching assistant</mark>. I also assumed various positions as an unpaid <mark>research assistant</mark>.
         description: | # this will include new lines to allow paragraphs
-          GPA 3.35. Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures
+          Courses: Microcontrollers and Interfacing, Embedded Systems, Computer Networks, Data Structures, Advanced Programming
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -206,7 +210,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <mark>Recycled</mark> an old ice-cream box into a line following robot.
           - <mark>Machined</mark> components to connect motors with toy wheels.
-          - Used basic hardware </mark>logic gates</mark> and photodiodes to program the robot to follow a black line.
+          - Used basic hardware <mark>logic gates</mark> and photodiodes to program the robot to follow a black line.
       - layout: top-middle
         title: Bomberman Game
         link: https://github.com/MHassanNadeem/Bomberman_Java
