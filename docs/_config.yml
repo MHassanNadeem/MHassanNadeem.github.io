@@ -159,6 +159,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: pigeon (minimal twitter clone)
+        link: https://github.com/MHassanNadeem/pigeon
+        link_text: github::MHassanNadeem::pigeon
+        additional_links:
+          - title:  Slides
+            icon: fab fa-globe
+            url: https://github.com/MHassanNadeem/pigeon/blob/master/Slides.pdf
+          - title:  Source Code
+            icon: fab fa-github
+            url: https://github.com/MHassanNadeem/pigeon
+        quote: >
+          Write a minimal twitter clone to demonstrate various web attacks and their defenses.
+        description: | # this will include new lines to allow paragraphs
+          - HTML injection.
+          - SQL injection.
+          - Cross Site Scripting (XSS).
+          - Cross Site Request Forgery (CSRF).
+          - XSS Worm.
+          - Sammy Worm.
+      - layout: top-middle
         title: Parrot AR Tracking Drone
         link: https://github.com/MHassanNadeem/Parrot-AR-Drone-Tracking
         link_text: github::MHassanNadeem::Parrot-AR-Drone-Tracking
