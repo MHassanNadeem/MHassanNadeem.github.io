@@ -41,6 +41,7 @@ google_analytics: "UA-71772128-2"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Not looking for external opportunities at the moment!
+  
   Hi, my name's Muhammad Hassan Nadeem. I prefer to go by Hassan. I'm a software and hardware engineer. I have designed various products from ground up - all the way from pcb layouts to writing code. I have worked at a number of companies gaining teamwork and leadership skills.
 
   I write <mark>clean</mark> and <mark>secure</mark> code.
